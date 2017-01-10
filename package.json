@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "elm-make --output=./dist/static/js/elm.js ./src/Main.elm",
-    "postinstall": "elm-package install -y && tup init",
+    "postinstall": "elm-package install -y",
     "start": "elm-live --path-to-elm-make=./node_modules/.bin/elm-make --host=localhost --port=10033 --dir=./dist --debug --pushstate --output=./dist/elm.js ./src/Main.elm"
   },
   "dependencies": {
