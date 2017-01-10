@@ -17,7 +17,7 @@ yarn.lock
 
 
 # Dist
-dist/
+dist/*
 !dist/index.html
 
 
