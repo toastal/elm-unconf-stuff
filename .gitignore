@@ -1,0 +1,32 @@
+# Elm
+/elm-stuff
+
+
+# Node
+node_modules/
+yarn.lock
+
+
+# Logs
+/logs
+*.log
+
+
+# Editors
+*.sw[po]
+
+
+# Dist
+dist/
+!dist/index.html
+
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
