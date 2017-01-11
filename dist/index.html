@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
 </head>
 <body>
-    LOADING . . .
+    <div id="app">LOADING&hellip;</div>
 </body>
 <script type="application/javascript" src="/elm.js"></script>
-<script type="application/javascript">var app = Elm.Main.fullscreen()</script>
+<script type="application/javascript">
+var container = document.getElementById("app")
+container.innerHTML = ""  // clear loading placeholder
+var app = Elm.Main.embed(container)
+</script>
 </html>
